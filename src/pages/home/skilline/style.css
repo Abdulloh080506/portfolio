@@ -1,0 +1,125 @@
+.skilline {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.skilline .skilline_text {
+    width: 40%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.skilline .skilline_cards {
+    width: 90%;
+    height: 55%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skilline .skilline_text h1 {
+    font-size: 35px;
+    font-weight: 900;
+    color: #2F327D;
+}
+.skilline .skilline_text h1 span {
+    font-weight: 900;
+    color: #F48C06;
+}
+.skilline .skilline_text p {
+    color: gray;
+}
+.skilline .skilline_cards .h1 {
+    width: 45%;
+    height: 100%;
+    background-image: url('../../../assets/img/walpaper1.png');
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transition: .3s;
+        border-radius: 20px;
+    }
+    & div:hover {
+        background-color: rgba(0, 0, 0, 0.316);
+    }
+    & div button {
+        padding: 15px 25px;
+        font-size: 18px;
+        border: none;
+        border-radius: 30px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        transition: .3s;
+    }
+    & div button:hover {
+        background-color: #23BDEE;
+        border: none;
+    }
+    & div h2 {
+        font-size: 30px;
+        color: white;
+        font-weight: 900;
+    }
+}
+.skilline .skilline_cards .h2 {
+    width: 45%;
+    height: 100%;
+    background-image: url('../../../assets/img/walpaper2.png');
+    background-size: cover;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    & div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transition: .3s;
+        border-radius: 20px;
+    }
+    & div:hover {
+        background-color: rgba(0, 0, 0, 0.316);
+    }
+    & div button {
+        padding: 15px 25px;
+        font-size: 18px;
+        border: none;
+        border-radius: 30px;
+        background-color: transparent;
+        color: white;
+        border: 1px solid white;
+        transition: .3s;
+    }
+    & div button:hover {
+        background-color: #23BDEE;
+        border: none;
+    }
+    & div h2 {
+        font-size: 30px;
+        color: white;
+        font-weight: 900;
+    }
+}
