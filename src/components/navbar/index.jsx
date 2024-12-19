@@ -3,6 +3,12 @@ import '../navbar/style.css';
 import Logo from '../../assets/img/nav_logo.png';
 
 const Navbar = () => {
+
+  window.addEventListener('scroll', function(){
+    var header = document.querySelector('header')
+    header.classList.toggle('sticky', window.scrollY > 0);
+  })
+
   return (
     <>
     <header>

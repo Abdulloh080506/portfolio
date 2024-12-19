@@ -1,0 +1,359 @@
+.elements3 {
+    width: 85%;
+    height: 550px;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elements3 .texts {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.elements3 .texts h1 {
+    width: 80%;
+    font-size: 41px;
+    font-weight: 900;
+    color: #2F327D;
+}
+.elements3 .texts h1 span {
+    color: #F48C06;
+    font-weight: 900;
+}
+.elements3 .texts p {
+    font-size: 24px;
+    color: gray;
+}
+.elements3 .image {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.elements3 .image .left {
+    width: 300px;
+    height: 190px;
+    background-color: #D3E7FF;
+    position: relative;
+    top: 280px;
+    left: -30px;
+    border-radius: 20px;
+}
+.elements3 .image .right {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    position: relative;
+    top: -60px;
+    left: 30px;
+}
+.elements3 .image .right div:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    background-color: #9FD7FF;
+    border-radius: 50%;
+}
+.elements3 .image .right div:nth-child(2) {
+    width: 20px;
+    height: 20px;
+    background-color: #9FD7FF;
+    border-radius: 50%;
+}
+.elements3 .image .center {
+    width: 728px;
+    height: 440px;
+    background-color: white;
+    position: absolute;
+    z-index: 17;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+}
+.elements3 .image .center .center_head {
+    width: 100%;
+    height: 15%;
+    background-color: #54AFF0;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elements3 .image .center .center_head p {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 30px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+.elements3 .image .center .center_head .star {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    margin-left: -20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    z-index: 17;
+}
+.elements3 .image .center .center_head .star div {
+    width: 75%;
+    height: 75%;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elements3 .image .center .center_head .star div img {
+    transform: scale(0.8);
+}
+.elements3 .image .center .center_head .book {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    margin-left: 670px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    z-index: 17;
+}
+.elements3 .image .center .center_head .book div {
+    width: 75%;
+    height: 75%;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elements3 .image .center .center_head .book div img {
+    transform: scale(0.8);
+}
+.elements3 .image .center .center_peoples {
+    width: 100%;
+    height: 70%;
+    position: relative;
+    top: -10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.elements3 .image .center .center_peoples .top {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elements3 .image .center .center_peoples .top .h1 {
+    width: 25%;
+    height: 35%;
+    background-color: #3AC6F2;
+    display: flex;
+    justify-content: end;
+}
+.elements3 .image .center .center_peoples .top .h1 .h1_1 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url('../../../assets/img/online_user3.png');
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-right: -40px;
+    display: flex;
+}
+.elements3 .image .center .center_peoples .top .h1 .h1_1 img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 17px;
+}
+.elements3 .image .center .center_peoples .top .h1 .h1_1 div {
+    width: 70px;
+    height: 40px;
+    background-color: #CDF3FF;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #43869B;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.elements3 .image .center .center_peoples .top .h2 {
+    width: 45%;
+    height: 37%;
+    background-color: #3189EF;
+    display: flex;
+    justify-content: start;
+    margin-top: -30px;
+}
+.elements3 .image .center .center_peoples .top .h2 .h2_1 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url('../../../assets/img/online_user4.png');
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-left: -10px;
+    display: flex;
+}
+.elements3 .image .center .center_peoples .top .h2 .h2_1 div {
+    width: 70px;
+    height: 40px;
+    background-color: #CDE4FF;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #486F9C;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 5px;
+}
+.elements3 .image .center .center_peoples .bottom {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
+
+.elements3 .image .center .center_peoples .bottom {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elements3 .image .center .center_peoples .bottom .h3 {
+    width: 40%;
+    height: 35%;
+    background-color: #68F146;
+    display: flex;
+    justify-content: end;
+    margin-top: 80px;
+}
+.elements3 .image .center .center_peoples .bottom .h3 .h1_1 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url('../../../assets/img/online_user2.png');
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-right: -40px;
+    display: flex;
+}
+.elements3 .image .center .center_peoples .bottom .h3 .h1_1 img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 50px;
+    left: 17px;
+}
+.elements3 .image .center .center_peoples .bottom .h3 .h1_1 div {
+    width: 70px;
+    height: 40px;
+    background-color: #D7FFCD;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4E8C3F;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.elements3 .image .center .center_peoples .bottom .h4 {
+    width: 20%;
+    height: 37%;
+    background-color: #F13C3C;
+    display: flex;
+    justify-content: start;
+    margin-top: -50px;
+}
+.elements3 .image .center .center_peoples .bottom .h4 .h2_1 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-image: url('../../../assets/img/online_user5.png');
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: -20px;
+    margin-left: -10px;
+    display: flex;
+}
+.elements3 .image .center .center_peoples .bottom .h4 .h2_1 div {
+    width: 70px;
+    height: 40px;
+    background-color: #FFCDCD;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9E5555;
+    font-size: 16px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: -25px;
+}
+
+
+.elements3 .image .center .center_foot {
+    width: 90%;
+    height: 15%;
+    margin: auto;
+    position: relative;
+    top: -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.elements3 .image .center .center_foot img {
+    position: relative;
+    right: 90px;
+}
+.elements3 .image .center .center_foot button {
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    border: none;
+    background: linear-gradient(#545AE7, #393FCF);
+    border-radius: 25px;
+    font-weight: 900;
+    color: white;
+    box-shadow: #545AE7 0px 7px 29px 0px;
+}

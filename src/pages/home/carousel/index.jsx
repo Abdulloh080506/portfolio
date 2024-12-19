@@ -1,12 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../carousel/style.css';
 import Play from '../../../assets/img/play.png';
 import { Kalendar } from '../../../assets/icons';
 import { Email } from '../../../assets/icons';
 import User from '../../../assets/img/banner_user.png';
 import Girl from '../../../assets/img/banner_girl.png';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const Carousel = () => {
+
+        useEffect(() => {
+            Aos.init()
+        });
+
   return (
     <>
     <section className='carousel_container'>
@@ -22,7 +29,7 @@ const Carousel = () => {
 
         <div className='right'>
             <div className='banner_left'>
-                <div className='el_1'>
+                <div className='el_1' data-aos="fade-right" data-aos-duration="1000">
                     <div>
                         <Kalendar/>
                     </div>
@@ -31,7 +38,7 @@ const Carousel = () => {
                         <p>Assisted Student</p>
                     </div>
                 </div>
-                <div className='el_2'>
+                <div className='el_2' data-aos="fade-right" data-aos-duration="2000">
                     <div>
                         <img src={User} alt="" />
                         <div>
@@ -49,8 +56,8 @@ const Carousel = () => {
             </div>
 
             <div className='banner_right'>
-                <div className='el_4'></div>
-                <div className='el_3'>
+                <div className='el_4' data-aos="fade-left" data-aos-duration="2500"></div>
+                <div className='el_3' data-aos="fade-left" data-aos-delay='200' data-aos-duration="1000">
                     <div><Email/></div>
                     <div>
                         <p>Congratulations</p>

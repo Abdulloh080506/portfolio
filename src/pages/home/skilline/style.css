@@ -20,8 +20,9 @@
     width: 90%;
     height: 55%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 90px;
 }
 .skilline .skilline_text h1 {
     font-size: 35px;

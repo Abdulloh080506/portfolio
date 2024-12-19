@@ -1,0 +1,103 @@
+.apps {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.apps .logos {
+    width: 40%;
+    height: 100%;
+}
+.apps .texts {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+}
+.apps .logos .top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.apps .logos .bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.apps .logos .top div:nth-child(1) {
+    width: 40%;
+    height: 90%;
+    background-image: url('../../../assets/img/one_drive.png');
+    background-size: cover;
+}
+.apps .logos .top div:nth-child(2) {
+    width: 30%;
+    height: 75%;
+    background-image: url('../../../assets/img/box.png');
+    background-size: cover;
+}
+.apps .logos .bottom div:nth-child(1) {
+    width: 27%;
+    height: 70%;
+    background-image: url('../../../assets/img/google_drive.png');
+    background-size: cover;
+}
+.apps .logos .bottom div:nth-child(2) {
+    width: 28%;
+    height: 75%;
+    background-image: url('../../../assets/img/t.png');
+    background-size: cover;
+}
+.apps .texts div {
+    width: 50%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.apps .texts div p {
+    font-size: 20px;
+    color: #525596;
+}
+.apps .texts div div {
+    width: 30%;
+    height: 5%;
+    background-color: #525596;
+}
+.apps .texts h1 {
+    width: 75%;
+    font-size: 40px;
+    color: #2F327D;
+    font-weight: 900;
+}
+.apps .texts h1 span {
+    color: #F48C06;
+    font-weight: 900;
+}
+.apps .texts p {
+    font-size: 23px;
+    color: gray;
+}
+.apps .texts button {
+    width: 230px;
+    height: 60px;
+    border: none;
+    border: 1px solid #F48C06;
+    color: #F48C06;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: .5s;
+}
+.apps .texts button:hover {
+    background: linear-gradient(#ffa939, #F48C06);
+    box-shadow: #ffa939 0px 7px 29px 0px;
+    border: none;
+    color: white;
+}

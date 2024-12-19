@@ -62,4 +62,28 @@ header nav ul li a {
     text-decoration: none;
     color: #252641;
     font-size: 20px;
+    transition: .3s;
+}
+header nav ul li a:hover {
+    color: #F48C06;
+}
+
+
+
+
+
+header.sticky {
+    background-color: #ffffffed;
+    transition: .5s;
+    border-bottom: 0.5px solid rgb(216, 216, 216);
+}
+header.sticky ul li a {
+    color: black;
+}   
+header.sticky nav button {
+    border: 1px solid rgba(128, 128, 128, 0.243);
+}
+header.sticky nav ul .logs1 {
+    border: 1px solid #F48C06;  
+    color: #F48C06;
 }
