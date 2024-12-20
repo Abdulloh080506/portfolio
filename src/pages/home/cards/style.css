@@ -86,3 +86,29 @@
 .cards .card:nth-child(3) div {
     background-color: #65DAFF;
 }
+
+
+
+
+
+@media (max-width: 992px) {
+    .card_container {
+        width: 1065px;
+        background-color: red;
+        margin: auto;
+    }
+    .card_container .cards {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .card_container .cards .card {
+        width: 30%;
+        height: 80%;
+        background-color: #2F327D;
+    }
+    .card_container .cards .card div {
+        width: 100px;
+        height: 100px;
+    }
+} 

@@ -70,3 +70,32 @@
     height: 58%;
     background-image: url('../../../assets/img/grab_color.png');
 }
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+    .company_container {
+        width: 1065px;
+        gap: 20px;
+    }
+    .company_container p {
+        font-size: 30px;
+    }
+    .company_container .companys {
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 40%;
+    }
+    .company_container .companys div {
+        width: 25%;
+        height: 50%;
+        background-size: cover;
+    }
+}

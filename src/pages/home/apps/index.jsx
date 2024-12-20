@@ -6,8 +6,8 @@ import 'aos/dist/aos.css';
 const Apps = () => {
 
     useEffect(() => {
-                Aos.init()
-            });
+        Aos.init()
+    });
 
   return (
     <>
